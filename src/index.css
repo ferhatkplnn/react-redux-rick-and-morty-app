@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .alive {
+    @apply before:content-[''] before:bg-green-400 before:h-3 before:w-3 before:inline-block before:rounded-full before:mr-1;
+  }
+
+  .dead {
+    @apply before:content-[''] before:bg-red-500 before:h-3 before:w-3 before:inline-block before:rounded-full before:mr-1;
+  }
+}
