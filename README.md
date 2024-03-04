@@ -1,6 +1,9 @@
 # Rick and Morty API React Application
 
+
 This project is a simple React application created using the Rick and Morty API. The application lists characters from the animated series and displays detailed information when a character card is clicked.
+
+[DEMO](https://rick-and-martin-react-redux.netlify.app/)
 
 ## Images
 
